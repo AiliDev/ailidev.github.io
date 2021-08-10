@@ -1,0 +1,17 @@
+{
+"companyName": "Aili Dev",
+"productName": "Ayoo!! Pajak",
+"productVersion": ".5",
+"dataUrl": "final.data.unityweb",
+"wasmCodeUrl": "final.wasm.code.unityweb",
+"wasmFrameworkUrl": "final.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "final.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
