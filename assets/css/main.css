@@ -1,0 +1,130 @@
+/********** Start Global section **********/
+@font-face {
+    font-family: "NicoKaku";
+    src: url("../fonts/NicoKaku.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue-Regular.woff2") format("woff2");
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.wrapper .section  {
+    padding: 4% 0;
+}
+.wrapper .section-header {
+    font-family: "BebasNeue";
+    font-weight: bold;
+    font-style: bold;
+    font-size: 3rem;
+    letter-spacing: 8px;
+}
+/********** End of Global section **********/
+
+/********** Start Body section **********/
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #17212a;
+    color: #fff;
+}
+/********** End of Body section **********/
+
+/********** Start Navbar section **********/
+.wrapper .navbar {
+    padding: 2% 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2 !important;
+}
+.wrapper .navbar .navbar-brand {
+    font-family: "NicoKaku" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem !important;
+    color: #fff;
+}
+.wrapper .navbar .navbar-brand img {
+    width: 14%;
+}
+.wrapper .navbar .nav-item {
+    margin: 0 1.5rem;
+}
+.wrapper .navbar .nav-item .nav-link {
+    font-family: "Poppins", sans-serif !important;
+    color: #fff;
+    padding: 2px;
+}
+/********** End of Navbar section **********/
+
+/********** Start Header section **********/
+.wrapper .header {
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/********** End of Header section **********/
+
+/********** Start About Us section **********/
+/* .wrapper .about-us {
+
+} */
+/********** End of About Us section **********/
+
+/********** Start Footer section **********/
+.wrapper .footer {
+    height: 10rem;
+    max-height: 10rem;
+    background-color: #191a21;
+    border-top: 4px solid #ff59d9;
+    padding-top: 2% !important;
+}
+/********** End of Footer section **********/
+
+/********** Media queries **********/
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /***** Navbar *****/
+    .wrapper .navbar .navbar-toggler {
+        border: none;
+    }
+
+    /***** Footer *****/
+    /* .wrapper .footer {
+        height: 6rem;
+    } */
+}

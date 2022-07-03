@@ -1,2 +1,1 @@
-# ailidev.github.io
-Official AiliDev Web Page
+# [Aili Dev](https://ailidev.github.io)

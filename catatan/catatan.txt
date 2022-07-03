@@ -1,2 +1,0 @@
-Gunakan web server for chrome untuk dekstop
-Gunakan KSWEB untuk device Touchscreen
